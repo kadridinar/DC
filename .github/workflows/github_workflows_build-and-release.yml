@@ -41,8 +41,8 @@ jobs:
         run: |
           mkdir models
           # Download your models here; replace the URLs with actual ones
-          Invoke-WebRequest -Uri "https://example.com/GFPGANv1.4" -OutFile "models/GFPGANv1.4"
-          Invoke-WebRequest -Uri "https://example.com/inswapper_128_fp16.onnx" -OutFile "models/inswapper_128_fp16.onnx"
+          Invoke-WebRequest -Uri "https://huggingface.co/hacksider/DC/resolve/main/GFPGANv1.4.pth" -OutFile "models/GFPGANv1.4.pth"
+          Invoke-WebRequest -Uri "https://huggingface.co/hacksider/DC/resolve/main/inswapper_128_fp16.onnx" -OutFile "models/inswapper_128_fp16.onnx"
 
       - name: Build EXE with PyInstaller
         run: |
@@ -52,6 +52,6 @@ jobs:
       - name: Upload EXE to Release
         uses: softprops/action-gh-release@v2
         with:
-          files: build\your_main_script.exe
+          files: build\DC.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

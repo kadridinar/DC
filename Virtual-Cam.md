@@ -71,4 +71,6 @@ Python has virtual camera solutions that can simulate a webcam using images or v
 - **JPG/GIF**: You can load images and display them as a webcam feed using OpenCV.
 - **MP3**: If you want to simulate audio input, you can use `pyaudio` or `sounddevice` to play an MP3 file as a virtual microphone.
 
-INspired by [this Stack Overflow thread](https://stackoverflow.com/questions/54389727/opening-web-camera-in-google-colab) and [this GitHub repo](https://github.com/theAIGuysCode/colab-webcam). 
+INspired by [this Stack Overflow thread](https://stackoverflow.com/questions/54389727/opening-web-camera-in-google-colab) and [this GitHub repo](https://github.com/theAIGuysCode/colab-webcam).
+ 
+https://obsproject.com/kb/quick-start-guide

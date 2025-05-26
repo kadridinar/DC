@@ -4,8 +4,7 @@ For Windows, you can achieve the same functionality using PowerShell or a batch 
 
 ### **Instructions:**
 1. Open PowerShell and run:  
-   ```powershell
-   Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+   ```powershell Set-ExecutionPolicy Unrestricted -Scope CurrentUser
    ```
 2. Navigate to the script's location and run:  
    ```powershell

@@ -19,7 +19,7 @@ jobs:
           python-version: '3.10'
 
       - name: Set up ffmpeg
-        uses: jlumbroso/setup-ffmpeg@v2
+        uses: jlumbroso/setup-ffmpeg@v1
 
       - name: Install Visual Studio 2022 Build Tools (if needed)
         uses: microsoft/setup-msbuild@v2
